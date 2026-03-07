@@ -48,8 +48,8 @@ const Hero = () => {
           </h1>
 
           <p ref={subtitleRef} className="text-lg sm:text-xl text-primary-foreground/80 font-body max-w-xl mb-10 leading-relaxed">
-            SJA Foundation — Pune's trusted name in premium real estate development 
-            and industrial cleaning solutions. Two visions, one commitment to excellence.
+            SJA Foundation — Pune's trusted name in real estate, cleaning solutions, 
+            security services & wedding decorations. Four visions, one commitment to excellence.
           </p>
 
           <div ref={ctaRef} className="flex flex-wrap gap-4">
