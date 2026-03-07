@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { Menu, X, Phone } from "lucide-react";
+import sjaLogo from "@/assets/sja-logo.png";
 
 const navItems = [
   { label: "Home", href: "#home" },
@@ -54,9 +55,7 @@ const Navbar = () => {
       <div className="container-wide flex items-center justify-between px-4 sm:px-6 lg:px-8 py-4">
         {/* Logo */}
         <button onClick={() => scrollTo("#home")} className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-lg bg-gold-gradient flex items-center justify-center">
-            <span className="font-display text-lg font-bold text-secondary-foreground">S</span>
-          </div>
+          <img src={sjaLogo} alt="SJA Foundation Logo" className="w-10 h-10 rounded-lg object-contain" />
           <div className="text-left">
             <span className={`font-display text-lg font-bold leading-tight block transition-colors ${scrolled ? "text-foreground" : "text-primary-foreground"}`}>
               SJA Foundation

@@ -1,4 +1,5 @@
-import { Building2, Phone, Mail, MapPin } from "lucide-react";
+import { Building2, Phone, Mail, MapPin, Shield, Heart } from "lucide-react";
+import sjaLogo from "@/assets/sja-logo.png";
 
 const Footer = () => {
   return (
@@ -8,13 +9,11 @@ const Footer = () => {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-gold-gradient flex items-center justify-center">
-                <span className="font-display text-lg font-bold text-secondary-foreground">S</span>
-              </div>
+              <img src={sjaLogo} alt="SJA Foundation Logo" className="w-10 h-10 rounded-lg object-contain" />
               <span className="font-display text-lg font-bold">SJA Foundation</span>
             </div>
             <p className="text-primary-foreground/70 font-body text-sm leading-relaxed">
-              Building futures in real estate and delivering excellence in cleaning solutions. Based in Pune, serving across India.
+              Building futures in real estate, cleaning solutions, security services & wedding decorations. Based in Pune, serving across India.
             </p>
           </div>
 
@@ -45,6 +44,14 @@ const Footer = () => {
                   <Building2 className="w-4 h-4 text-secondary" />
                   Jyoti Shine Cleaners
                 </a>
+              </li>
+              <li className="flex items-center gap-2 text-primary-foreground/70 font-body text-sm">
+                <Shield className="w-4 h-4 text-secondary" />
+                SJA Security Services
+              </li>
+              <li className="flex items-center gap-2 text-primary-foreground/70 font-body text-sm">
+                <Heart className="w-4 h-4 text-secondary" />
+                SJA Wedding Decorations
               </li>
             </ul>
           </div>

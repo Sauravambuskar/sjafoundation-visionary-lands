@@ -1,9 +1,11 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Building, Droplets, ArrowRight } from "lucide-react";
+import { Building, Droplets, Shield, Heart, ArrowRight } from "lucide-react";
 import realEstateImg from "@/assets/hero-realestate.jpg";
 import chemicalsImg from "@/assets/hero-chemicals.jpg";
+import securityImg from "@/assets/hero-security.jpg";
+import weddingImg from "@/assets/hero-wedding.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -28,6 +30,26 @@ const businesses = [
     image: chemicalsImg,
     link: "https://jyotishine.vercel.app/",
   },
+  {
+    icon: Shield,
+    title: "SJA Security Services",
+    subtitle: "Security Solutions",
+    description:
+      "Reliable and professional security services for residential complexes, commercial properties, events, and industrial sites. Our trained personnel ensure safety and peace of mind with 24/7 vigilance.",
+    features: ["Trained Security Guards", "CCTV & Surveillance Systems", "Event Security Management", "24/7 Monitoring & Patrol"],
+    image: securityImg,
+    link: "#contact",
+  },
+  {
+    icon: Heart,
+    title: "SJA Wedding Decorations",
+    subtitle: "Wedding & Event Décor",
+    description:
+      "Turn your dream wedding into reality with our breathtaking decoration services. From elegant mandaps to stunning floral arrangements, we create magical settings for your most memorable moments.",
+    features: ["Mandap & Stage Decoration", "Floral Arrangements", "Lighting & Ambiance Design", "Complete Venue Styling"],
+    image: weddingImg,
+    link: "#contact",
+  },
 ];
 
 const Businesses = () => {
@@ -39,7 +61,7 @@ const Businesses = () => {
         gsap.fromTo(el,
           { y: 80, opacity: 0, scale: 0.95 },
           {
-            y: 0, opacity: 1, scale: 1, duration: 1, delay: i * 0.2,
+            y: 0, opacity: 1, scale: 1, duration: 1, delay: i * 0.15,
             scrollTrigger: { trigger: el, start: "top 85%" },
           }
         );
@@ -54,7 +76,7 @@ const Businesses = () => {
         <div className="text-center mb-16">
           <span className="text-secondary font-body text-sm font-semibold tracking-[0.2em] uppercase mb-3 block">Our Ventures</span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-            Two Businesses, <span className="text-gradient-gold">One Vision</span>
+            Four Businesses, <span className="text-gradient-gold">One Vision</span>
           </h2>
         </div>
 
