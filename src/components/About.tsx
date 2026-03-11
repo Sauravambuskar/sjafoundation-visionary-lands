@@ -9,7 +9,7 @@ const stats = [
   { icon: Building2, value: "50+", label: "Projects Delivered" },
   { icon: Users, value: "1000+", label: "Happy Clients" },
   { icon: Award, value: "10+", label: "Years of Trust" },
-  { icon: Target, value: "5", label: "Business Verticals" },
+  { icon: Target, value: "6", label: "Business Verticals" },
 ];
 
 const About = () => {
