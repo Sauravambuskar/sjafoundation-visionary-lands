@@ -4,7 +4,7 @@ import heroImg from "@/assets/hero-main.jpg";
 import { ArrowDown } from "lucide-react";
 
 const heroStats = [
-  { value: "5+", label: "Business Verticals" },
+  { value: "6+", label: "Business Verticals" },
   { value: "1000+", label: "Happy Clients" },
   { value: "10+", label: "Years Experience" },
 ];
