@@ -103,7 +103,7 @@ const Businesses = () => {
         <div className="text-center mb-16">
           <span className="text-secondary font-body text-sm font-semibold tracking-[0.2em] uppercase mb-3 block">Our Ventures</span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-            Five Businesses, <span className="text-gradient-gold">One Vision</span>
+            Six Businesses, <span className="text-gradient-gold">One Vision</span>
           </h2>
         </div>
 
