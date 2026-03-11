@@ -54,6 +54,10 @@ const Footer = () => {
                 <Banknote className="w-4 h-4 text-secondary" />
                 SJA Micro Finance
               </li>
+              <li className="flex items-center gap-2 text-primary-foreground/70 font-body text-sm">
+                <Stars className="w-4 h-4 text-secondary" />
+                Start Planet Celebrity Mgmt
+              </li>
             </ul>
           </div>
 
