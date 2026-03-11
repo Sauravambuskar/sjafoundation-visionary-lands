@@ -41,7 +41,7 @@ const About = () => {
               SJA Foundation is a Pune-based enterprise with a bold vision — transforming 
               the landscape of real estate through <strong className="text-foreground">SJA Lands & Developers</strong>, 
               delivering powerful cleaning solutions with <strong className="text-foreground">SJA Flour Cleaner</strong>, 
-              ensuring safety with <strong className="text-foreground">SJA Security Services</strong>, creating dream weddings with <strong className="text-foreground">SJA Wedding Decorations</strong>, and empowering communities through <strong className="text-foreground">SJA Micro Finance</strong>.
+              ensuring safety with <strong className="text-foreground">SJA Security Services</strong>, creating dream weddings with <strong className="text-foreground">SJA Wedding Decorations</strong>, empowering communities through <strong className="text-foreground">SJA Micro Finance</strong>, and bringing star power with <strong className="text-foreground">Start Planet Celebrity Management</strong>.
             </p>
             <p className="about-animate text-muted-foreground font-body text-lg leading-relaxed mb-8">
               Our commitment to quality, innovation, and customer satisfaction has made us a 

@@ -66,7 +66,7 @@ const Hero = () => {
 
           <p ref={subtitleRef} className="text-lg sm:text-xl text-primary-foreground/80 font-body max-w-xl mb-10 leading-relaxed">
             SJA Foundation — Pune's trusted name in real estate, floor cleaning solutions, 
-            security services, wedding decorations & micro finance. Five visions, one commitment to excellence.
+            security services, wedding decorations, micro finance & celebrity management. Six visions, one commitment to excellence.
           </p>
 
           <div ref={ctaRef} className="flex flex-wrap gap-4">
