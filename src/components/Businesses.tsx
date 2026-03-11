@@ -1,12 +1,13 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Building, Droplets, Shield, Heart, Banknote, ArrowRight } from "lucide-react";
+import { Building, Droplets, Shield, Heart, Banknote, Stars, ArrowRight } from "lucide-react";
 import realEstateImg from "@/assets/hero-realestate.jpg";
 import chemicalsImg from "@/assets/hero-chemicals.jpg";
 import securityImg from "@/assets/hero-security.jpg";
 import weddingImg from "@/assets/hero-wedding.jpg";
 import microfinanceImg from "@/assets/hero-microfinance.jpg";
+import celebrityImg from "@/assets/hero-celebrity.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
