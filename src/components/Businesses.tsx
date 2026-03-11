@@ -30,7 +30,7 @@ const businesses = [
       "Industrial-grade and household floor cleaning products trusted by thousands. From floor cleaners to degreasers, SJA Flour Cleaner delivers powerful cleaning that's safe and effective for every environment.",
     features: ["Floor & Surface Cleaners", "Industrial Degreasers", "Dish & Laundry Care", "Eco-Friendly Formulas"],
     image: chemicalsImg,
-    link: "https://jyotishine.vercel.app/",
+    link: "#contact",
   },
   {
     icon: Shield,

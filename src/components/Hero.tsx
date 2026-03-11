@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import heroImg from "@/assets/hero-main.jpg";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Phone } from "lucide-react";
 
 const heroStats = [
   { value: "6+", label: "Business Verticals" },
@@ -75,6 +75,13 @@ const Hero = () => {
               className="bg-gold-gradient text-secondary-foreground px-8 py-4 rounded-full font-body font-semibold text-base hover:scale-105 transition-transform shadow-lg"
             >
               Explore Our Businesses
+            </a>
+            <a
+              href="tel:+919699346910"
+              className="flex items-center gap-2 border border-primary-foreground/30 text-primary-foreground px-8 py-4 rounded-full font-body font-medium text-base hover:bg-primary-foreground/10 transition-colors"
+            >
+              <Phone className="w-4 h-4" />
+              +91 96993 46910
             </a>
             <a
               href="#about"

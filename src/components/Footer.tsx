@@ -36,11 +36,9 @@ const Footer = () => {
                 <Building2 className="w-4 h-4 text-secondary" />
                 SJA Lands & Developers
               </li>
-              <li>
-                <a href="https://jyotishine.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary-foreground/70 font-body text-sm hover:text-secondary transition-colors">
-                  <Droplets className="w-4 h-4 text-secondary" />
-                  SJA Flour Cleaner
-                </a>
+              <li className="flex items-center gap-2 text-primary-foreground/70 font-body text-sm">
+                <Droplets className="w-4 h-4 text-secondary" />
+                SJA Flour Cleaner
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70 font-body text-sm">
                 <Shield className="w-4 h-4 text-secondary" />
