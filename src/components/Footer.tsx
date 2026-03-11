@@ -1,4 +1,4 @@
-import { Building2, Phone, Mail, MapPin, Shield, Heart } from "lucide-react";
+import { Building2, Phone, Mail, MapPin, Shield, Heart, Droplets, Banknote } from "lucide-react";
 import sjaLogo from "@/assets/sja-logo.png";
 
 const Footer = () => {
@@ -6,22 +6,20 @@ const Footer = () => {
     <footer className="bg-primary text-primary-foreground">
       <div className="container-wide px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
-          {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <img src={sjaLogo} alt="SJA Foundation Logo" className="w-10 h-10 rounded-lg object-contain" />
+              <img src={sjaLogo} alt="SJA Foundation Logo" className="h-12 w-auto object-contain" />
               <span className="font-display text-lg font-bold">SJA Foundation</span>
             </div>
             <p className="text-primary-foreground/70 font-body text-sm leading-relaxed">
-              Building futures in real estate, cleaning solutions, security services & wedding decorations. Based in Pune, serving across India.
+              Building futures in real estate, cleaning solutions, security services, wedding decorations & micro finance. Based in Pune, serving across India.
             </p>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h4 className="font-display text-base font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              {["Home", "About", "Businesses", "Why Us", "Contact"].map((item) => (
+              {["Home", "About", "Businesses", "Why Us", "Gallery", "Contact"].map((item) => (
                 <li key={item}>
                   <a href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-primary-foreground/70 font-body text-sm hover:text-secondary transition-colors">
                     {item}
@@ -31,7 +29,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Businesses */}
           <div>
             <h4 className="font-display text-base font-bold mb-4">Our Businesses</h4>
             <ul className="space-y-2">
@@ -41,8 +38,8 @@ const Footer = () => {
               </li>
               <li>
                 <a href="https://jyotishine.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary-foreground/70 font-body text-sm hover:text-secondary transition-colors">
-                  <Building2 className="w-4 h-4 text-secondary" />
-                  Jyoti Shine Cleaners
+                  <Droplets className="w-4 h-4 text-secondary" />
+                  SJA Flour Cleaner
                 </a>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70 font-body text-sm">
@@ -53,10 +50,13 @@ const Footer = () => {
                 <Heart className="w-4 h-4 text-secondary" />
                 SJA Wedding Decorations
               </li>
+              <li className="flex items-center gap-2 text-primary-foreground/70 font-body text-sm">
+                <Banknote className="w-4 h-4 text-secondary" />
+                SJA Micro Finance
+              </li>
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="font-display text-base font-bold mb-4">Contact</h4>
             <ul className="space-y-3">
@@ -66,7 +66,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70 font-body text-sm">
                 <Phone className="w-4 h-4 text-secondary" />
-                +91 99999 99999
+                +91 96993 46910
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70 font-body text-sm">
                 <Mail className="w-4 h-4 text-secondary" />

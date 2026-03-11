@@ -8,6 +8,7 @@ const navItems = [
   { label: "About", href: "#about" },
   { label: "Businesses", href: "#businesses" },
   { label: "Why Us", href: "#why-us" },
+  { label: "Gallery", href: "#gallery" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -55,7 +56,7 @@ const Navbar = () => {
       <div className="container-wide flex items-center justify-between px-4 sm:px-6 lg:px-8 py-4">
         {/* Logo */}
         <button onClick={() => scrollTo("#home")} className="flex items-center gap-3 group">
-          <img src={sjaLogo} alt="SJA Foundation Logo" className="w-10 h-10 rounded-lg object-contain" />
+          <img src={sjaLogo} alt="SJA Foundation Logo" className="h-12 w-auto object-contain" />
           <div className="text-left">
             <span className={`font-display text-lg font-bold leading-tight block transition-colors ${scrolled ? "text-foreground" : "text-primary-foreground"}`}>
               SJA Foundation
@@ -78,7 +79,7 @@ const Navbar = () => {
             </button>
           ))}
           <a
-            href="tel:+919999999999"
+            href="tel:+919699346910"
             className="flex items-center gap-2 bg-gold-gradient text-secondary-foreground px-5 py-2.5 rounded-full text-sm font-semibold font-body hover:scale-105 transition-transform"
           >
             <Phone className="w-4 h-4" />
@@ -108,7 +109,7 @@ const Navbar = () => {
             </button>
           ))}
           <a
-            href="tel:+919999999999"
+            href="tel:+919699346910"
             className="flex items-center justify-center gap-2 bg-gold-gradient text-secondary-foreground px-5 py-3 rounded-full text-sm font-semibold font-body mt-3"
           >
             <Phone className="w-4 h-4" />
