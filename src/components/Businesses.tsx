@@ -62,6 +62,16 @@ const businesses = [
     image: microfinanceImg,
     link: "#contact",
   },
+  {
+    icon: Stars,
+    title: "Start Planet Celebrity Management",
+    subtitle: "Celebrity & Talent Management",
+    description:
+      "Connecting brands with stars. Start Planet manages celebrity appearances, brand endorsements, event hosting, and talent coordination. From Bollywood to sports icons, we bring star power to your events and campaigns.",
+    features: ["Celebrity Appearances & Shows", "Brand Endorsements", "Event Hosting & Anchoring", "Talent Coordination & PR"],
+    image: celebrityImg,
+    link: "#contact",
+  },
 ];
 
 const Businesses = () => {

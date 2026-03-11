@@ -1,4 +1,4 @@
-import { Building2, Phone, Mail, MapPin, Shield, Heart, Droplets, Banknote } from "lucide-react";
+import { Building2, Phone, Mail, MapPin, Shield, Heart, Droplets, Banknote, Stars } from "lucide-react";
 import sjaLogo from "@/assets/sja-logo.png";
 
 const Footer = () => {
