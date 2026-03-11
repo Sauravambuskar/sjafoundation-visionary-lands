@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const contactInfo = [
   { icon: MapPin, label: "Address", value: "SJA Foundation, Pune, Maharashtra, India" },
-  { icon: Phone, label: "Phone", value: "+91 99999 99999", href: "tel:+919999999999" },
+  { icon: Phone, label: "Phone", value: "+91 96993 46910", href: "tel:+919699346910" },
   { icon: Mail, label: "Email", value: "info@sjafoundation.com", href: "mailto:info@sjafoundation.com" },
   { icon: Clock, label: "Working Hours", value: "Mon - Sat: 9:00 AM - 7:00 PM" },
 ];
@@ -38,7 +38,6 @@ const Contact = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-10">
-          {/* Contact Info */}
           <div className="space-y-6">
             {contactInfo.map((c) => (
               <div key={c.label} className="contact-animate flex items-start gap-5 bg-card border border-border rounded-2xl p-6 card-elevated">
@@ -59,7 +58,6 @@ const Contact = () => {
             ))}
           </div>
 
-          {/* Map / CTA */}
           <div className="contact-animate bg-card border border-border rounded-3xl overflow-hidden card-elevated">
             <iframe
               title="SJA Foundation Location"

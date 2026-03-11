@@ -9,7 +9,7 @@ const stats = [
   { icon: Building2, value: "50+", label: "Projects Delivered" },
   { icon: Users, value: "1000+", label: "Happy Clients" },
   { icon: Award, value: "10+", label: "Years of Trust" },
-  { icon: Target, value: "2", label: "Business Verticals" },
+  { icon: Target, value: "5", label: "Business Verticals" },
 ];
 
 const About = () => {
@@ -31,7 +31,6 @@ const About = () => {
     <section ref={sectionRef} id="about" className="section-padding bg-background">
       <div className="container-wide">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left */}
           <div>
             <span className="about-animate text-secondary font-body text-sm font-semibold tracking-[0.2em] uppercase mb-3 block">About Us</span>
             <h2 className="about-animate font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6">
@@ -39,9 +38,10 @@ const About = () => {
               <span className="text-gradient-gold">Trust & Vision</span>
             </h2>
             <p className="about-animate text-muted-foreground font-body text-lg leading-relaxed mb-4">
-              SJA Foundation is a Pune-based enterprise with a bold dual vision — transforming 
-              the landscape of real estate through <strong className="text-foreground">SJA Lands & Developers</strong>, and 
-              revolutionizing the cleaning industry with <strong className="text-foreground">Jyoti Shine</strong> chemical solutions.
+              SJA Foundation is a Pune-based enterprise with a bold vision — transforming 
+              the landscape of real estate through <strong className="text-foreground">SJA Lands & Developers</strong>, 
+              delivering powerful cleaning solutions with <strong className="text-foreground">SJA Flour Cleaner</strong>, 
+              ensuring safety with <strong className="text-foreground">SJA Security Services</strong>, creating dream weddings with <strong className="text-foreground">SJA Wedding Decorations</strong>, and empowering communities through <strong className="text-foreground">SJA Micro Finance</strong>.
             </p>
             <p className="about-animate text-muted-foreground font-body text-lg leading-relaxed mb-8">
               Our commitment to quality, innovation, and customer satisfaction has made us a 
@@ -54,7 +54,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* Right - Stats Grid */}
           <div className="grid grid-cols-2 gap-5">
             {stats.map((stat) => (
               <div
