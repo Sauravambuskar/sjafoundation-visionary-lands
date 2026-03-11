@@ -1,4 +1,4 @@
-import { Building2, Phone, Mail, MapPin, Shield, Heart, Droplets, Banknote } from "lucide-react";
+import { Building2, Phone, Mail, MapPin, Shield, Heart, Droplets, Banknote, Stars } from "lucide-react";
 import sjaLogo from "@/assets/sja-logo.png";
 
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
               <span className="font-display text-lg font-bold">SJA Foundation</span>
             </div>
             <p className="text-primary-foreground/70 font-body text-sm leading-relaxed">
-              Building futures in real estate, cleaning solutions, security services, wedding decorations & micro finance. Based in Pune, serving across India.
+              Building futures in real estate, cleaning solutions, security services, wedding decorations, micro finance & celebrity management. Based in Pune, serving across India.
             </p>
           </div>
 
@@ -53,6 +53,10 @@ const Footer = () => {
               <li className="flex items-center gap-2 text-primary-foreground/70 font-body text-sm">
                 <Banknote className="w-4 h-4 text-secondary" />
                 SJA Micro Finance
+              </li>
+              <li className="flex items-center gap-2 text-primary-foreground/70 font-body text-sm">
+                <Stars className="w-4 h-4 text-secondary" />
+                Start Planet Celebrity Mgmt
               </li>
             </ul>
           </div>

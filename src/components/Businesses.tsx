@@ -1,12 +1,13 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Building, Droplets, Shield, Heart, Banknote, ArrowRight } from "lucide-react";
+import { Building, Droplets, Shield, Heart, Banknote, Stars, ArrowRight } from "lucide-react";
 import realEstateImg from "@/assets/hero-realestate.jpg";
 import chemicalsImg from "@/assets/hero-chemicals.jpg";
 import securityImg from "@/assets/hero-security.jpg";
 import weddingImg from "@/assets/hero-wedding.jpg";
 import microfinanceImg from "@/assets/hero-microfinance.jpg";
+import celebrityImg from "@/assets/hero-celebrity.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -61,6 +62,16 @@ const businesses = [
     image: microfinanceImg,
     link: "#contact",
   },
+  {
+    icon: Stars,
+    title: "Start Planet Celebrity Management",
+    subtitle: "Celebrity & Talent Management",
+    description:
+      "Connecting brands with stars. Start Planet manages celebrity appearances, brand endorsements, event hosting, and talent coordination. From Bollywood to sports icons, we bring star power to your events and campaigns.",
+    features: ["Celebrity Appearances & Shows", "Brand Endorsements", "Event Hosting & Anchoring", "Talent Coordination & PR"],
+    image: celebrityImg,
+    link: "#contact",
+  },
 ];
 
 const Businesses = () => {
@@ -102,7 +113,7 @@ const Businesses = () => {
         <div className="text-center mb-16">
           <span className="text-secondary font-body text-sm font-semibold tracking-[0.2em] uppercase mb-3 block">Our Ventures</span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground">
-            Five Businesses, <span className="text-gradient-gold">One Vision</span>
+            Six Businesses, <span className="text-gradient-gold">One Vision</span>
           </h2>
         </div>
 
